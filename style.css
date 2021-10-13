@@ -340,6 +340,28 @@ p{
 
 
 
+/* Footer */
+
+
+.footer{
+  padding:24px 0;
+}
+
+.footer-link{
+  margin-bottom: 8px;
+}
+
+.footer-link:last-child{
+  margin-bottom: 0;
+}
+
+.footer-link a{
+  font-size: 14px;
+  line-height: 1.7142857143;
+  color:#807f81;
+}
+
+
 /* >= 768px (Desktop) */
 
 @media screen and (min-width: 768px){
@@ -530,6 +552,28 @@ p{
   .subscription-form .form-notice{
     font-size: 14px;
     line-height: 1.7142857143;;
+  }
+
+
+  /* Footer */
+
+  .footer{
+    padding:16px 0
+  }
+
+  
+  .footer-links{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-link{
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+
+  .footer-link:last-child{
+    margin-right: 0;
   }
 }
 
