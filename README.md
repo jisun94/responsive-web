@@ -1,1 +1,1 @@
-# This is a responsive web site using html5 and css3 
+# This is a responsive web site using html5, css3 and bootstrap 
